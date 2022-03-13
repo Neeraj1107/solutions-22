@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event page</title>
+    <script src="https://kit.fontawesome.com/62f8f5ef12.js" crossorigin="anonymous"></script>
+    <style>
+        body{background: linear-gradient(270deg, #1D104D 0%, #08031A 100%);}
+        .topNav{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            margin: 0px 20px 0px 0px;
+        }
+        .a{
+            font-family: 'Tomorrow';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #C8C7FF;
+            padding: 10px 10px;
+        }
+        .icon{
+            padding: 10px 10px;
+        }
+
+        .sideNav{
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            justify-content: center;
+            max-width: fit-content;
+        }
+        .e{     
+            margin: 20px 20px;    
+            font-family: 'Tomorrow';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 18px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #C8C7FF;
+        }
+
+        .main{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        main{
+            max-width: 700px;
+            height: max-content;
+            border: 5px;
+            background: black;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+            border: 5px solid;
+            border-color: white;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .cards{
+            height: 100px;
+            width: 150px;
+            background: linear-gradient(359.64deg, #3E386C 0.31%, rgba(91, 86, 130, 0) 99.69%);
+            border: 5px solid white;
+            margin: 20px 20px;
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <div class="topNav">
+        <div class="a"><l1>Home</l1></div>
+        <div class="a"><l1>Events</l1></div>
+        <div class="a"><l1>Our Team</l1></div>
+        <div class="a"><l1>Schedule</l1></div>
+        <div class="a icon"><i class="fa-solid fa-user"></i></div>
+    </div>
+
+    <div class="main">
+        <div class="sideNav">
+            <div class="e"><l1>GAMING</l1></div>
+            <div class="e"><l1>CORE EVENTS</l1></div>
+            <div class="e"><l1>OPEN EVENTS</l1></div>
+            <div class="e"><l1>CODING</l1></div> 
+        </div>
+
+        <main>
+        <div class="cards">Valorant</div>
+        <div class="cards">Valorant</div>
+        <div class="cards">Valorant</div>
+        <div class="cards">Valorant</div>
+        </main>
+    </div>
+</body>
+</html>
